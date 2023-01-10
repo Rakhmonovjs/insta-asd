@@ -46,7 +46,7 @@ function ProfileBody({ userID }: Insta.ProfileBodyProps) {
 
             <div className="grid px-6 grid-cols-2 smmd:grid-cols-3 gap-6 smmd:gap-6">
                 {
-                    (postList?.length === 0 && !loading) ? <h1 className="">No Posts!</h1> :
+                    (postList?.length === 0 && !loading) ? <h1 className="">No Posts !</h1> :
                         postList?.map((post: any, idx: number) => {
                             return (
                                 <div

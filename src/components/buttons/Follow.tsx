@@ -11,34 +11,7 @@ function Follow({
     onClick
 }: Insta.followProp) {
 
-    // const [isFollow, setIsFollow] = React.useState<boolean | null>(null)
-    // const [followerData, setFollowerData] = React.useState<fireStore.DocumentData | undefined>()
-    // const [followeeData, setFolloweeData] = React.useState<fireStore.DocumentData | undefined>()
-    // const handleFollow = () => {
-    //     setIsFollow(typeof isFollow === null ? true : !isFollow)
-    // }
 
-    // const getIsFollowedByUser = async () => {
-    //     const userFolloweeDocSnap = await fireStore.getDoc(fireStore.doc(store, `users/${currentUserID}/followees/${followeeID}`));
-    //     if (userFolloweeDocSnap.exists()) {
-    //         setIsFollow(true)
-    //     }
-    // }
-
-    // React.useEffect(() => {
-    //     getUserByID(currentUserID).then((result) => setFollowerData(result));
-    //     getUserByID(followeeID).then((result) => setFolloweeData(result));
-    //     getIsFollowedByUser();
-    // }, [])
-
-    // React.useEffect(() => {
-    //     if (isFollow == true) {
-    //         addUserToFolloweeAndFollower(currentUserID, followeeID, { ...followerData, uid: currentUserID }, { ...followeeData, uid: followeeID })
-    //     }
-    //     if (isFollow == false) {
-    //         removeUserFromFolloweeAndFollower(currentUserID, followeeID)
-    //     }
-    // }, [isFollow])
     
 
     return (

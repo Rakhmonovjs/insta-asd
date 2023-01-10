@@ -150,7 +150,7 @@ function Home() {
         !loading && postList?.length === 0 ?
           <>
             <div className="flex flex-col justify-centerw-full h-full max-w-4xl m-auto p-2">
-              <h2 className="text-center font-bold text-lg">No Posts made yet!</h2>
+              <h2 className="text-center font-bold text-lg">No Posts!</h2>
               {/* <img src={NoPost} alt="" /> */}
             </div>
           </>

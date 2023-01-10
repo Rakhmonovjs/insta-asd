@@ -79,7 +79,7 @@ const Head = ({ userID }: Insta.ProfileHeaderProps) => {
         <>
             <div className='mb-4'>
                 <div className={`relative `}>
-                    <div className={`h-[150px] w-full aspect-video bg-festa-two `}>
+                    <div className={`h-[150px] w-full aspect-video bg-secondary-two `}>
                         {userDoc?.banner && <img src={userDoc?.banner} loading="lazy" alt="" className="w-[inherit] h-full object-cover" />}
                     </div>
                     <div className="md:h-40 aspect-square rounded-full h-36 smmd:h-40 absolute bottom-0 left-8 translate-y-1/2 object-cover">
